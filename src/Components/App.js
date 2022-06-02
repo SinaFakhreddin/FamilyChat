@@ -22,6 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         TEST
+        <div>TEST2</div>
         <Products />  
         <Cart/>
       </div>
