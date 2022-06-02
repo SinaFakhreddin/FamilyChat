@@ -1,0 +1,217 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.product-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 21vw;
+    box-shadow: inset 10px 2px 67px silver;
+    margin: 4px;
+    border-radius: 12px;
+    transition: all 900ms;
+}
+.image-icon-wrapper{
+        display: flex;
+        justify-content: center;
+        border: none;
+}
+.buy-button-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.name-description-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.cost-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.app{
+    display: flex;
+}
+
+.image-icon-wrapper > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fucking-parrent{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-description-wrapper > em {
+    text-align: center;
+}
+.name-description-wrapper > p {
+    text-align: center;
+}
+.cost-wrapper > em{
+    text-align: center;
+}
+
+.buy-button-wrapper > button {
+    border: none;
+    box-shadow: inset 18px 5px 20px silver;
+    border-radius: 14px;
+    padding: 4%;
+    transition: all 900ms;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+.buy-button-wrapper > button:hover{
+    
+    box-shadow: inset 10.5em 0 0 #747373, inset -11.5em 0 0 #747373;
+    cursor: pointer;
+    color: white;
+}
+
+.product-wrapper:hover{
+
+    z-index: 2;
+    transform: scale(1.1);
+    box-shadow: inset 10px 2px 67px rgb(102, 102, 102);
+    cursor: pointer;
+
+}
+
+.buy-button-wrapper > button:disabled{
+    
+    background: #ff6700;
+    cursor: not-allowed;
+    box-sizing: 1px 1px 1px black;
+    box-shadow: inset 7px 11px 25px #fc0000;
+}
+.buy-button-wrapper > button:disabled:hover{
+    
+    box-shadow: inset 8.5rem 0px 0px #740000, inset -9.5rem 0px 0px #740000
+}
+.disabled-class{
+    transition: all 900ms;
+}
+.disabled-class:hover{
+    cursor: not-allowed;
+    background: red;
+    box-shadow: 6px 5px 34px red;
+}
+
+
+
+.App{
+    padding: "1rem";
+    position: relative;
+    overflow-x: hidden;
+}
+.cart-wrapper{
+    position: fixed;
+    bottom: -37%;;
+    right: 5px;
+    min-width: 40%;
+    height: 30%;
+    background-color: rgba(37, 37, 37, 0.185);
+    border-radius: 10px;
+    z-index: 3;
+    transition: all 900ms;
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.cart-body{
+    padding: 0.5rem;
+    border: 1px solid yellow;
+    background: rgba(255, 255, 255, 0.555);
+    display: flex;
+    border-radius: 8px;
+    margin: 0.5rem;
+   
+}
+
+.cart-up{
+    bottom: 0!important;
+}
+
+.cart-info-img{
+    display: flex;
+    justify-content: center;
+}
+.button-cart-wrapper{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.button-cart-wrapper>span{
+    background:#007896;
+    color: honeydew;
+}
+
+
+.button-cart{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(255, 177, 8);
+    color: honeydew;
+}
+.total-cart{
+    background: rgba(255, 255, 255, 0.507);
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.info-product-selected{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.no-name{
+    overflow-y: scroll;
+   
+}
+
+.icon-wrapper{
+    position: absolute;
+    top: -15%;
+    color: red;
+    font-size: 30px;
+    right: 0px;
+    transition: all 900ms;
+}
+.cart-icon-box{
+    position: absolute;
+     right: 1rem;
+    bottom: 1rem;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 1rem;
+    transition: all 900ms;
+    background: rgb(94, 255, 0);
+    box-shadow: inset 0.5rem 3px 20px 3px red;
+}
+.cart-icon-box:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.drop-down-arrow{
+    transition: all 900ms;
+}
+.drop-down-arrow:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
