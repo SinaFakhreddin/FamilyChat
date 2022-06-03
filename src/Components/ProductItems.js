@@ -19,6 +19,7 @@ export default class ProductItems extends Component {
         onMouseLeave={exitMouse}
       >
         <div className="image-icon-wrapper">
+          changes is commited
           <img src={imageIcon} alt="" />
         </div>
         <div className="name-description-wrapper">
