@@ -16,6 +16,7 @@ class Cart extends Component {
     return (
       <div className={`cart-wrapper ${cartStatus === true ? "cart-up" : ""}`}>
         <div className="icon-wrapper">
+          change Maseter To show On stash
           {cartStatus ? (
             <IoIosArrowDropdownCircle
               className="drop-down-arrow"
