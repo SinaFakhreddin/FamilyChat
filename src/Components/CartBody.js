@@ -25,6 +25,7 @@ class CartBody extends Component {
               <li>test4</li>
             </ul>
           </div>
+          <div>Add Changes To be Commited</div>
         </div>
         <div className="info-product-selected">
           <span>{productNameSelected || productBrand || productBranch}</span>
